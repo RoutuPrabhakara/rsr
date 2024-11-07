@@ -1,0 +1,62 @@
+.card .form-control{
+  padding: 15px;
+  background-color: #F5F7F8;
+  border-radius: 100px;
+}
+
+/* //texts */
+.text-main{
+  color: #0F67B1;
+}
+
+.bg-light1{
+  background-color: #F5F7F8;
+}
+
+.main-btn{
+  width: 100%;
+  padding: 15px;
+  font-size: 1.1rem;
+  color: #fff;
+  background: #0F67B1;
+  border: none;
+  border-radius: 100px;
+  cursor: pointer;
+}
+.main-btn:hover{
+  opacity: 0.8;
+}
+
+/* Increase specificity by adding more class/element names */
+.my-app .css-sghohy-MuiButtonBase-root-MuiButton-root,
+.my-app .css-hip9hq-MuiPaper-root-MuiAppBar-root,
+.my-app .css-1bjk3jo-MuiButtonBase-root-MuiBottomNavigationAction-root.Mui-selected,
+.my-app .css-1wrk208-MuiButtonBase-root-MuiIconButton-root {
+    background: linear-gradient(45deg, #4828d8, #931ccf) !important;
+    color: #fff !important;
+}
+
+.my-app .css-1rfw2yr-MuiSvgIcon-root {
+    color: #931ccf !important;
+}
+
+
+@media (max-width: 600px) {
+  .my-app .css-sghohy-MuiButtonBase-root-MuiButton-root,
+  .my-app .css-hip9hq-MuiPaper-root-MuiAppBar-root,
+  .my-app .css-1bjk3jo-MuiButtonBase-root-MuiBottomNavigationAction-root.Mui-selected,
+  .my-app .css-1wrk208-MuiButtonBase-root-MuiIconButton-root {
+      background: linear-gradient(45deg, #4828d8, #931ccf) !important;
+      color: #fff !important;
+  }
+  
+  .my-app .css-1rfw2yr-MuiSvgIcon-root {
+      color: #931ccf !important;
+  }
+}
+
+.header{
+  position: sticky !important;
+  top: 0 !important;
+  z-index: 1020 !important;
+}

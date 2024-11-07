@@ -1,0 +1,8 @@
+.hero{
+    min-height: 300px;
+    background-color: #1976d2;
+    color: #fff;
+}
+.hero i{
+    color: rgb(69, 245, 172) !important;
+}

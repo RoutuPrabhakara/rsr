@@ -1,0 +1,41 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+
+.my-app .css-sghohy-MuiButtonBase-root-MuiButton-root,
+.my-app .css-hip9hq-MuiPaper-root-MuiAppBar-root,
+.my-app .css-1bjk3jo-MuiButtonBase-root-MuiBottomNavigationAction-root.Mui-selected,
+.my-app .css-1wrk208-MuiButtonBase-root-MuiIconButton-root {
+    background: linear-gradient(45deg, #4828d8, #931ccf) !important;
+    color: #fff !important;
+}
+
+.my-app .css-1rfw2yr-MuiSvgIcon-root {
+    color: #931ccf !important;
+}
+
+
+@media (max-width: 600px) {
+  .my-app .css-sghohy-MuiButtonBase-root-MuiButton-root,
+  .my-app .css-hip9hq-MuiPaper-root-MuiAppBar-root,
+  .my-app .css-1bjk3jo-MuiButtonBase-root-MuiBottomNavigationAction-root.Mui-selected,
+  .my-app .css-1wrk208-MuiButtonBase-root-MuiIconButton-root {
+      background: linear-gradient(45deg, #4828d8, #931ccf) !important;
+      color: #fff !important;
+  }
+  
+  .my-app .css-1rfw2yr-MuiSvgIcon-root {
+      color: #931ccf !important;
+  }
+}
